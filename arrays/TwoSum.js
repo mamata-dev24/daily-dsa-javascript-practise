@@ -40,3 +40,12 @@ function twoSum(nums, target) {
 //I check whether 2 already exists in the map. If yes, I return the indexes immediately.”
 
 //“Map is used for fast lookup using key-value pairs.”
+
+//works for:
+// positive numbers ✅
+// negative numbers ✅
+// zero ✅
+//because subtraction mathematically handles all cases.
+
+//“Negative numbers are automatically handled because the complement calculation works mathematically for all integers.
+//Also, JavaScript Map supports negative keys, so lookup remains O(1) even for negative values.”
